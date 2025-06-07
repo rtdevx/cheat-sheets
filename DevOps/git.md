@@ -77,7 +77,4 @@
 | `git bisect bad <commit>`                   | Mark a commit as bad in a binary search.               |
 
 <br>
-<p align="center">
 ![How Git works](./assets/git.gif)
-    <img src="./assets/git.gif" />
-</p>
