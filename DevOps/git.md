@@ -79,4 +79,5 @@
 <br>
 <p align="center">
 ![How Git works](./assets/git.gif)
+    <img src="./assets/git.gif" />
 </p>
