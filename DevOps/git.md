@@ -75,3 +75,5 @@
 | `git bisect start`                          | Start a binary search for a faulty commit.              |
 | `git bisect good <commit>`                  | Mark a commit as good in a binary search.              |
 | `git bisect bad <commit>`                   | Mark a commit as bad in a binary search.               |
+
+![How Git works](./assets/git.gif)
