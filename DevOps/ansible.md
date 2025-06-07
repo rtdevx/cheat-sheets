@@ -1,8 +1,5 @@
 # Ansible cheat sheet
 
- 
-
-
 | Category | Command/Option | Explanation |
 |---|---|---|
 | General | `ansible --version` | Display the version of Ansible installed. |
