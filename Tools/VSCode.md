@@ -15,4 +15,4 @@
 
 ---
 
-![[vscode-cheatsheet.png]]
+![VSCode Cheat Sheet](./assets/vscode-cheatsheet.png)
