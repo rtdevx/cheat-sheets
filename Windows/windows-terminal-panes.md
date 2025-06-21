@@ -60,12 +60,12 @@
 | `Actions`       | Some commands take additional action arguments to modify the behaviour.                                                        |
 
 ---
-#### References / Sources
+## References / Sources
 
 | Info        | Description                                    |
 | ----------- | ---------------------------------------------- |
 | Cheatsheets | https://cheats.dhr.wtf/sheet/windows-terminal/ |
-#### Further info
+## Further info
 
 | Info                  | Description                                                                                                                                                      |
 | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
