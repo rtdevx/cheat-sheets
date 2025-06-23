@@ -1,4 +1,4 @@
-# Cheat Sheets
+# Cheat Sheets - often used.
 
 ## [Ansible](./DevOps/ansible.md)
 
@@ -6,7 +6,15 @@ Command | Explanation
 --------|-------------
 `ansible all -m gather_facts --limit ux-vm1` | Gather facts for a single machine.
 
-## [Kubernetes](./DevOps/kubernetes.md)
+## [Git](./DevOps/ansible.md)
+
+Command | Explanation
+--------|-------------
+`git branch -d <branch>` | Delete a branch locally.
+`git push origin --delete <branch>` | Delete a remote branch.
+`git pull --rebase origin <branch>` | Fetch and reapply commits from a remote repository.
+
+## [Kubernetes](./DevOps/git.md)
 
 Command | Explanation
 --------|-------------
