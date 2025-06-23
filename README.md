@@ -11,7 +11,8 @@ Command | Explanation
 Command | Explanation
 --------|-------------
 `k config set-context --current --namespace=<desired-namespace>` | Switch namespace.
-`k get pods` | List all pods in the current namespace.
+`k get kustomizations` | Get Flux reconciliation status.
+`k describe kustomizations NAME` | See the reconciliation status conditions and events. https://fluxcd.io/flux/components/kustomize/kustomizations/
 
 ## [Windows Terminal](./Windows/windows-terminal-panes.md)
 
