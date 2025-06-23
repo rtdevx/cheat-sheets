@@ -13,6 +13,8 @@ Command | Explanation
 `k config set-context --current --namespace=<desired-namespace>` | Switch namespace.
 `k get kustomizations` | Get Flux reconciliation status.
 `k describe kustomizations NAME` | See the reconciliation status conditions and events. https://fluxcd.io/flux/components/kustomize/kustomizations/
+`k get customresourcedefinitions.apiextensions.k8s.io` | Get Custom Resource Definitions.
+`k get customresourcedefinitions.apiextensions.k8s.io kustomizations.kustomize.toolkit.fluxcd.io -o yaml` | Specification of the Kustomization custom resource in yaml.
 
 ## [Windows Terminal](./Windows/windows-terminal-panes.md)
 
