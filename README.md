@@ -22,6 +22,7 @@ Command | Explanation
 `k get kustomizations` | Get Flux reconciliation status.
 `k describe kustomizations NAME` | See the reconciliation status conditions and events. https://fluxcd.io/flux/components/kustomize/kustomizations/
 `flux get kustomizations` | Get applied kustomizations.
+`flux reconcile kustomization apps` | Enforce reconciliation.
 `k get customresourcedefinitions.apiextensions.k8s.io` | Get Custom Resource Definitions.
 `k get customresourcedefinitions.apiextensions.k8s.io kustomizations.kustomize.toolkit.fluxcd.io -o yaml` | Specification of the Kustomization custom resource in yaml.
 
