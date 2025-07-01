@@ -5,6 +5,9 @@
 Command | Explanation
 --------|-------------
 `ansible all -m gather_facts --limit ux-vm1` | Gather facts for a single machine.
+`ansible all -m ping`<br>`ansible "app*" -m ping`<br>`ansible 'prod:!db' -m ping`<br>`ansible all -i inventory -m ping`<br>`ansible 'prod:!db' -a uptime`<br>`ansible 'prod' -a 'uname -a'` | Ping all hosts in the inventory.<br>-m = MODULE_NAME<br> -a =  MODULE_ARGS<br>https://docs.ansible.com/ansible/2.9/user_guide/modules.html
+`ansible all -m apt`<br>`ansible all -m apt -a update_cache=true --become`<br>`ansible all -m apt -a update_cache=true  --ask-become-pass`<br>`ansible all -m apt -a update_cache=true --become --ask-become-pass`<br>`ansible prod -m -s -a "free \| grep -i swap"`<br>`ansible prod -m command -a "free" \| grep -i swap`<br>`ansible prod -m shell -a "free \| grep -i swap"` | Run commands on the remote nodes.
+`ansible-playbook systems.yml --syntax-check`<br>`ansible-playbook systems.yml --list-hosts`<br>`ansible-playbook systems.yml --list-tasks`<br>`ansible-playbook systems.yml --list-tags`<br>`ansible-playbook systems.yml --check`<br>`ansible-playbook systems.yml --step` | Syntax check.
 
 ## [Git](./DevOps/ansible.md)
 
