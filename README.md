@@ -22,6 +22,7 @@ Command | Explanation
 Command | Explanation
 --------|-------------
 `k config set-context --current --namespace=<desired-namespace>` | Switch namespace.
+`k get all` | All that is running in a current namespace (PODS, Services, Deployments, etc.)
 `k get kustomizations` | Get Flux reconciliation status.
 `k describe kustomizations NAME` | See the reconciliation status conditions and events. https://fluxcd.io/flux/components/kustomize/kustomizations/
 `flux get kustomizations` | Get applied kustomizations.
