@@ -29,7 +29,7 @@ Command | Explanation
 | `flux reconcile kustomization apps`                                                                       | Enforce reconciliation.                                                                                          |
 | `k get customresourcedefinitions.apiextensions.k8s.io`                                                    | Get Custom Resource Definitions.                                                                                 |
 | `k get customresourcedefinitions.apiextensions.k8s.io kustomizations.kustomize.toolkit.fluxcd.io -o yaml` | Specification of the Kustomization custom resource in yaml.                                                      |
-| `k kubectl get events --sort-by=.metadata.creationTimestamp`<br>                                          | Check Kubernetes events for detailed logs.                                                                       |
+| `k kubectl get events --sort-by=.metadata.creationTimestamp`                                              | Check Kubernetes events for detailed logs.                                                                       |
 
 ## [Windows Terminal](./Windows/windows-terminal-panes.md)
 
