@@ -31,6 +31,15 @@ Command | Explanation
 | `k get customresourcedefinitions.apiextensions.k8s.io kustomizations.kustomize.toolkit.fluxcd.io -o yaml` | Specification of the Kustomization custom resource in yaml.                                                      |
 | `k kubectl get events --sort-by=.metadata.creationTimestamp`                                              | Check Kubernetes events for detailed logs.                                                                       |
 
+### FluxCD
+
+flux get kustomizations
+flux reconcile source git flux-system
+flux stats
+flux get helmrepositories
+flux get helmreleases
+flux tree
+
 ## [Windows Terminal](./Windows/windows-terminal-panes.md)
 
 Command | Explanation
