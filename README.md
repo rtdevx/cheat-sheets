@@ -33,12 +33,12 @@ Command | Explanation
 
 ### FluxCD
 
-flux get kustomizations
-flux reconcile source git flux-system
-flux stats
-flux get helmrepositories
-flux get helmreleases
-flux tree
+- flux get kustomizations
+- flux reconcile source git flux-system
+- flux stats
+- flux get helmrepositories
+- flux get helmreleases
+- flux tree
 
 ## [Windows Terminal](./Windows/windows-terminal-panes.md)
 
