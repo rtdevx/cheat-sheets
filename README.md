@@ -19,17 +19,17 @@ Command | Explanation
 
 ## [Kubernetes](./DevOps/git.md)
 
-| Command                                                                                                   | Explanation                                                                                                      |
-| --------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| `k config set-context --current --namespace=<desired-namespace>`                                          | Switch namespace.                                                                                                |
-| `k get all`                                                                                               | All that is running in a current namespace (PODS, Services, Deployments, etc.)                                   |
-| `k get kustomizations`                                                                                    | Get Flux reconciliation status.                                                                                  |
-| `k describe kustomizations NAME`                                                                          | See the reconciliation status conditions and events. https://fluxcd.io/flux/components/kustomize/kustomizations/ |
-| `flux get kustomizations`                                                                                 | Get applied kustomizations.                                                                                      |
-| `flux reconcile kustomization apps`                                                                       | Enforce reconciliation.                                                                                          |
-| `k get customresourcedefinitions.apiextensions.k8s.io`                                                    | Get Custom Resource Definitions.                                                                                 |
-| `k get customresourcedefinitions.apiextensions.k8s.io kustomizations.kustomize.toolkit.fluxcd.io -o yaml` | Specification of the Kustomization custom resource in yaml.                                                      |
-| `k kubectl get events --sort-by=.metadata.creationTimestamp`                                              | Check Kubernetes events for detailed logs.                                                                       |
+| Command                                                                                                   | Explanation                                                                                                                                                     |
+| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `k config set-context --current --namespace=<desired-namespace>`                                          | Switch namespace.                                                                                                                                               |
+| `k get all` <br> `k get all -A`                                                                           | - All that is running in a current namespace (PODS, Services, Deployments, etc.) <br>- All that is running in ALL namespaces! Good Kubernetes cluster overview! |
+| `k get kustomizations`                                                                                    | Get Flux reconciliation status.                                                                                                                                 |
+| `k describe kustomizations NAME`                                                                          | See the reconciliation status conditions and events. https://fluxcd.io/flux/components/kustomize/kustomizations/                                                |
+| `flux get kustomizations`                                                                                 | Get applied kustomizations.                                                                                                                                     |
+| `flux reconcile kustomization apps`                                                                       | Enforce reconciliation.                                                                                                                                         |
+| `k get customresourcedefinitions.apiextensions.k8s.io`                                                    | Get Custom Resource Definitions.                                                                                                                                |
+| `k get customresourcedefinitions.apiextensions.k8s.io kustomizations.kustomize.toolkit.fluxcd.io -o yaml` | Specification of the Kustomization custom resource in yaml.                                                                                                     |
+| `k kubectl get events --sort-by=.metadata.creationTimestamp`                                              | Check Kubernetes events for detailed logs.                                                                                                                      |
 
 ### FluxCD
 
